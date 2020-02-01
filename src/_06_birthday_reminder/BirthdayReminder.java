@@ -22,14 +22,21 @@ String response =	JOptionPane.showInputDialog("what birthday do you want");
 		
 		// 4. if user asked for "mom"
 			//print mom's birthday
+if(response .equalsIgnoreCase("Mom")) {
+	System.out.println(momsBirthday);
+}
 
 		// 5. if user asked for "dad"
 			// print dad's birthday
-
+else if(response .equalsIgnoreCase("dad")) {
+	System.out.println(dadsBirthday);
+}
 		// 6. if user asked for your name
 			// print myBirthday
-
+else if(response .equalsIgnoreCase("your birthday")) {
+	System.out.println(myBirthday);
+}
 		//7. otherwise print "Sorry, i don't remember that person's birthday!"
-
+else JOptionPane.showMessageDialog(null, "sorry, I don't know that one");
 	} 
 }
