@@ -4,6 +4,8 @@
 
 package _09_robot_walk_of_fame;
 
+import javax.swing.JOptionPane;
+
 import org.jointheleague.graphical.robot.Robot;
 
 public class WalkOfFame {
@@ -21,8 +23,44 @@ for (int i = 0; i < 5; i++) {
 	bob.turn(144);
 }
 bob.penUp();
-bob.move(100);
-		// 3. Set the size of the star to 30.
+bob.move(50);
+bob.penDown();
+for (int i = 0; i < 5; i++) {
+	bob.move(30);
+	bob.turn(144);
+}
+bob.penUp();
+bob.move(50);
+bob.penDown();
+for (int i = 0; i < 5; i++) {
+	bob.move(30);
+	bob.turn(144);
+}
+bob.penUp();
+bob.move(50);
+bob.penDown();
+for (int i = 0; i < 5; i++) {
+	bob.move(30);
+	bob.turn(144);
+}
+bob.penUp();
+bob.move(50);
+bob.penDown();
+for (int i = 0; i < 5; i++) {
+	bob.move(30);
+	bob.turn(144);
+}
+bob.penUp();
+bob.move(50);
+bob.penDown();
+for (int i = 0; i < 5; i++) {
+	bob.move(30);
+	bob.turn(144);
+}
+bob.penUp();
+bob.move(50);
+bob.penDown();
+// 3. Set the size of the star to 30.
 
 		/** THE CHALLENGE: **/
 		/*
@@ -31,7 +69,7 @@ bob.move(100);
 		 * 
 		 * Hint: The distance between stars is 50.
 		 */
-
+JOptionPane.showMessageDialog(null, "");
 	}
 
 }
